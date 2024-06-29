@@ -29,17 +29,22 @@
     form > div.campo{
             float: right;
             width: 69%;
+            margin-bottom: 20px;
         }
 
+        
     form > input[type=submit]{
         float: right;
         width: 69%;
+        margin-top: 30px;
+        margin-bottom: 25px;
     }
 
     
     form > a.botao{
             float: right;
             width: 69%;
+            padding-top: 7px;
         }
 
 }
