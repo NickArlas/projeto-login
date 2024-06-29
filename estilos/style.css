@@ -43,7 +43,7 @@ section#login{
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    
 
     background-color: white;
     overflow: hidden;
@@ -53,7 +53,7 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 
-
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -110,7 +110,9 @@ div.campo > input {
     border-radius: 5px;
     padding: 2px;
     width: calc(100% - 45px);
-    transform: translateY(-2px);
+
+
+    transform: translateY(-3px);
 }
 
 form > input[type=submit] {
